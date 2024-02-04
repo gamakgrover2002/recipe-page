@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Recipe page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+  
+      body {
+        background-color: bisque;
+      }
+      .container {
+        background-color: white;
+        width: 50%;
+        height: fit-content;
+        position: relative;
+        left: 25vw;
+        top: 10vh;
+        border-radius: 20px;
+      }
+      .hero-img{
+        border-radius: 20px;
+        position: relative;
+        width: 80%;
+        height: 40%;
+       left: 8%;
+       top: 8vh;
+      
+
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+        margin-top: 8%;
+   
+      }
+      #grid{
+        margin-bottom: 7%;
+        
+      }
+      .content{
+        margin-top: 10vh;
+        padding: 8%;
+      }
+      .article{
+        margin: 5%;
+      }
+      #main-text{
+        font-size: 3vw;
+        margin-bottom:2%
+      }
+   
+      h3{
+        color: purple;
+      }
+      h1{
+        color: brown ;
+      }
+      li{
+        margin: 4%;
+      }
+     section{
+      margin-top: 5%;
+      margin-bottom: 10%;
+     }
+     .line{
+   border-bottom: solid 0.1px gray;
+   
+   
+     }
+     .value{
+      color: brown;
+      font-weight: bold;
+     }
+     p{
+      padding-left: 15%;
+     }
+     footer{
+      width: 50vw;
+      height: 10vh;
+     }
+ 
+    </style>
+  </head>
+  <body>
+    
+    <div class="container">
+
+      <img class="hero-img" src="./assets/images/image-omelette.jpeg" ></img>
+
+
+      <div class="content">
+        <section class ="section1">
+      <div id = "main-text">Simple Omelette Recipe</div>
+       An easy and quick dish, perfect for any meal. This
+      classic omelette combines beaten eggs cooked to perfection, optionally
+      filled with your choice of cheese, vegetables, or meats.
+
+    <article class="article">   
+      <h3>   Preparation time</h3>
+      <ul>
+      <li>Total: Approximately 10 minutes</li>
+      <li>Preparation: 5 minutes</li>
+      <li>Cooking: 5 minutes</li>
+    </ul>
+  </article>
+</section>
+  <section class="section2">
+      <h1>Ingredients</h1>
+      <ul>
+      <li>2-3 large eggs </li>
+       <li> Salt, to taste </li>
+       <li> Pepper, to taste </li>
+       <li>1 tablespoon of butter or oil</li>
+         <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li></ul>
+        </section>
+        <hr>
+        <section class="section3">
+       <h1>Instructions</h1>
+       <ol>
+        <li>Beat the eggs: In a bowl, beat the eggs with a pinch of
+      salt and pepper until they are well mixed. You can add a tablespoon of
+      water or milk for a fluffier texture.</li>
+      <li> Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil. </li>
+       <li> Cook the omelette: Once
+      the butter is melted and bubbling, pour in the eggs. Tilt the pan to
+      ensure the eggs evenly coat the surface.</li>
+      <li> Add fillings (optional): When the
+      eggs begin to set at the edges but are still slightly runny in the middle,
+      sprinkle your chosen fillings over one half of the omelette. Fold and
+      serve: As the omelette continues to cook, carefully lift one edge and fold
+      it over the fillings. Let it cook for another minute, then slide it onto a
+      plate.</li>
+      <li> Enjoy: Serve hot, with additional salt and pepper if needed.</li>
+    </ol>
+    </section>
+    <hr>
+    <section class="section4">
+      <h1>Nutrition</h1>
+       The table below shows nutritional values per serving without the
+      additional fillings. 
+      <div id="grid">
+   
+     <div class="line"><p>Calories</p></div>
+     <div class="line value"><p>277kcal</p></div> 
+     <div class="line"><p>Carbs</p></div>
+     <div class="line value"><p>0g</p></div>
+     <div class="line"><p>Protein</p></div>
+     <div class="line value"><p>20g</p></div> 
+     <div><p>Fat</p></div>
+     <div class="value"><p>22g</p></div>
+    </div>
+  </section>
+
+  </div>
+   <footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/gamakgrover2002">Gamak Grover</a>.
+    </div>
+
+  </footer>
+</div>
+  </body>
+</html>
